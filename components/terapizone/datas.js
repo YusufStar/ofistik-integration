@@ -1,32 +1,22 @@
-import { FaRegCalendarTimes } from "react-icons/fa";
-import { BsCameraVideoOff } from "react-icons/bs";
-import { TbMessages } from "react-icons/tb";
-import { CiPercent } from "react-icons/ci";
-
-const datas = [
+export default [
   {
-    title: "15 Gün İçinde İade İmkanı",
-    description: "15 gün içinde iade İmkanı",
-    icon: <CiPercent className="stroke-]" />,
+    "id": 1,
+    "title": "15 Gün İçinde İade İmkanı",
+    "desc": "15 Gün İçinde İade İmkanı"
   },
   {
-    title: "Güvendesiniz, Endişelenmeyin",
-    description:
-      "Terapizone kişisel bilgilerinizi ve video görüşmelerinizi korur.",
-    icon: <BsCameraVideoOff className="stroke" />,
+    "id": 2,
+    "title": "Güvendesiniz, Endişelenmeyin",
+    "desc": "Terapizone kişisel bilgilerinizi ve  video görüşmelerinizi kayıt altına almaz."
   },
   {
-    title: "24 Saate Kadar Seans İptali",
-    description:
-      "planlarda değişiklik olduğunda, seansınıza 24 saat kalana kadar iptal edebilirsiniz.",
-    icon: <FaRegCalendarTimes className="stroke-0" />,
+    "id": 3,
+    "title": "24 Saate Kadar Seans İptali",
+    "desc": "Planlarda değişiklik olduğunda, seansınıza 24 saat kalana kadar iptal edebilirsiniz."
   },
   {
-    title: "7/24 Canlı Destek",
-    description:
-      "Terapizone, ihtiyacınız olduğu her an size destek olmak için yanınızda.",
-    icon: <TbMessages className="stroke-1" />,
-  },
-];
-
-export default datas;
+    "id": 4,
+    "title": "7/24 Canlı Destek",
+    "desc": "Terapizone, ihtiyacınız olduğu her an size destek olmak için yanınızda!"
+  }
+]
